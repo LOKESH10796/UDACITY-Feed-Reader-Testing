@@ -1,53 +1,23 @@
-# Udacity Feed Reader Testing
+# ?? Automated Feed Reader Tests
 
-Feed reader application built with Jasmine testing framework from Udacity.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Jasmine](https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white)
 
-## Features
+A comprehensive test suite built with Jasmine for a web-based RSS Feed Reader application. This project demonstrates Test-Driven Development (TDD) principles by defining and implementing test specs for the application's core functionality, DOM manipulation, and asynchronous network requests.
 
-- JavaScript application
-- Jasmine unit tests
-- RSS/Atom feed parsing
-- Test-driven development
+## ?? Testing Suites Included
 
-## Badges
+*   **RSS Feeds Definition:** Validates that the \llFeeds\ variable has been defined, is not empty, and each feed has a valid URL and name.
+*   **The Menu:** Ensures that the sliding menu is hidden by default and toggles visibility correctly when the menu icon is clicked.
+*   **Initial Entries:** Contains an asynchronous test that guarantees the \loadFeed\ function completes its work and there is at least a single \.entry\ element within the \.feed\ container.
+*   **New Feed Selection:** An asynchronous test that ensures when a new feed is loaded by the \loadFeed\ function, the DOM content actually changes.
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/LOKESH10796/UDACITY-Feed-Reader-Testing?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/LOKESH10796/UDACITY-Feed-Reader-Testing?style=for-the-badge)
-![GitHub Issues](https://img.shields.io/github/issues/LOKESH10796/UDACITY-Feed-Reader-Testing?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/LOKESH10796/UDACITY-Feed-Reader-Testing?style=for-the-badge)
+## ?? How to Run the Tests
 
-## Installation
+1.  Clone the repository: \git clone https://github.com/LOKESH10796/automated-feed-reader-tests.git\
+2.  Open \index.html\ in your favorite web browser.
+3.  Scroll to the bottom of the page to view the live Jasmine test results.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LOKESH10796/UDACITY-Feed-Reader-Testing.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd UDACITY-Feed-Reader-Testing
-   ```
-3. Install dependencies (if applicable):
-   ```bash
-   # For Node.js projects
-   npm install
-   # For Python projects
-   pip install -r requirements.txt
-   ```
+## ?? License
 
-## Usage
-
-Add usage instructions here.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Lokesh Gounder - - lokeshgounder@gmail.com
-
-Project Link: [https://github.com/LOKESH10796/UDACITY-Feed-Reader-Testing](https://github.com/LOKESH10796/UDACITY-Feed-Reader-Testing)
+This project is licensed under the MIT License.
